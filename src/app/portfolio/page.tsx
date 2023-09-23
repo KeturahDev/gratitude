@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 
+// import Link from 'next/link';
 import { Main } from '@/templates/Main';
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ const Portfolio = () => (
       to your projects.
     </p>
 
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+    {/* <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
       {Array.from(Array(6).keys()).map((elt) => (
         <Link className="border-none" key={elt} href={`/portfolio/${elt}`}>
           <div className="overflow-hidden rounded-lg">
@@ -33,7 +33,7 @@ const Portfolio = () => (
           </div>
         </Link>
       ))}
-    </div>
+    </div> */}
   </Main>
 );
 

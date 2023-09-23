@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-import { GuestbookForm } from './GuestbookForm';
+import { GuestbookForm } from './todelete_GuestbookForm';
 
 type IEditableGuestbookEntryProps = {
   id: number;

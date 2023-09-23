@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
-import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
-import { GuestbookForm } from '@/components/GuestbookForm';
+import { DeleteGuestbookEntry } from '@/components/todelete_DeleteGuestbookEntry';
+import { EditableGuestbookEntry } from '@/components/todelete_EditableGuestbookEntry';
+import { GuestbookForm } from '@/components/todelete_GuestbookForm';
 import { db } from '@/libs/DB';
 import { guestbookTable } from '@/models/Schema';
 import { Main } from '@/templates/Main';

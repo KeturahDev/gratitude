@@ -1,6 +1,7 @@
 import { sql } from 'drizzle-orm';
 import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
+// TO DELETE
 export const guestbookTable = sqliteTable('guestbook', {
   id: integer('id').primaryKey(),
   username: text('username').notNull(),
@@ -12,3 +13,5 @@ export const guestbookTable = sqliteTable('guestbook', {
     sql`(strftime('%s', 'now'))`,
   ),
 });
+
+// ADD GRATEFUL POST

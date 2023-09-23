@@ -8,8 +8,9 @@ import {
   DeleteGuestbookSchema,
   EditGuestbookSchema,
   GuestbookSchema,
-} from '@/validations/GuestbookValidation';
+} from '@/validations/todelete_GuestbookValidation';
 
+// TO DELETE --------------------------------------------------------------------
 export const POST = async (request: Request) => {
   try {
     const json = await request.json();
@@ -67,3 +68,6 @@ export const DELETE = async (request: Request) => {
     return NextResponse.json({}, { status: 500 });
   }
 };
+// -------------------------------------------------------------------------------------
+
+// ADD FOR RESTFUL GRATEFUL API
